@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {StatusBar} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -6,6 +7,7 @@ import {AddProduct} from '../screens';
 import createAppStack from './TabNavigator';
 import {Heading} from '../components';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -30,6 +32,7 @@ function getHeaderTitle(route) {
 const Navigator = () => {
   return (
     <NavigationContainer>
+      <StatusBar backgroundColor="#1a73e8" />
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
@@ -37,7 +40,7 @@ const Navigator = () => {
           options={({route}) => ({
             headerTitle: getHeaderTitle(route),
             headerStyle: {
-              backgroundColor: '#428bca',
+              backgroundColor: "#1a73e8",
               elevation: 0,
             },
             headerTintColor: '#fff',

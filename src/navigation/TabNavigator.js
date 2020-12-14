@@ -23,7 +23,7 @@ function Products() {
         indicatorStyle: {
           backgroundColor: 'white',
         },
-        style: {backgroundColor: '#428bca', borderTopWidth: 0},
+        style: {backgroundColor: '#1a73e8', borderTopWidth: 0},
       }}>
       <Top.Screen name="All Products" component={AllProducts} />
       <Top.Screen name="Add" component={Home} />
@@ -35,10 +35,19 @@ function Products() {
 const createAppStack = () => {
   return (
     <Tab.Navigator
-      
       tabBarOptions={{
-        
-        activeTintColor: 'tomato',
+        labelStyle: {
+          fontSize: 12,
+          padding: 4,
+        },
+        style: {
+          height: 60,
+        },
+        tabStyle: {
+          paddingVertical: 5,
+          marginTop: 5,
+        },
+        activeTintColor: '#1a73e8',
         inactiveTintColor: 'gray',
       }}>
       <Tab.Screen
