@@ -32,6 +32,8 @@
 		22435CA9C5BF40219486591E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0E9A0AB1C524DBE931D65E1 /* Octicons.ttf */; };
 		53F882FE519643838E487053 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B0C326BDB3142AD97670B25 /* SimpleLineIcons.ttf */; };
 		61A11B7F2CB14F468BE67B6F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */; };
+		6B7DE01433134E879E3F5330 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */; };
+		F31A779642624A098B0FB573 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		F0E9A0AB1C524DBE931D65E1 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4B0C326BDB3142AD97670B25 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../src/assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Regular.ttf"; path = "../src/assets/fonts/Comfortaa-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,8 @@
 				F0E9A0AB1C524DBE931D65E1 /* Octicons.ttf */,
 				4B0C326BDB3142AD97670B25 /* SimpleLineIcons.ttf */,
 				4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */,
+				33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */,
+				A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -368,6 +374,8 @@
 				22435CA9C5BF40219486591E /* Octicons.ttf in Resources */,
 				53F882FE519643838E487053 /* SimpleLineIcons.ttf in Resources */,
 				61A11B7F2CB14F468BE67B6F /* Zocial.ttf in Resources */,
+				6B7DE01433134E879E3F5330 /* Ubuntu-Light.ttf in Resources */,
+				F31A779642624A098B0FB573 /* Comfortaa-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

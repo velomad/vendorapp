@@ -8,8 +8,12 @@ import HomeIcon from 'react-native-vector-icons/AntDesign';
 import OrderIcon from 'react-native-vector-icons/Ionicons';
 import ProductsIcons from 'react-native-vector-icons/SimpleLineIcons';
 import ProfileIcon from 'react-native-vector-icons/Ionicons';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
-// import Heading from '../components/Heading.js'
+
 const Tab = createBottomTabNavigator();
 const Top = createMaterialTopTabNavigator();
 
@@ -19,7 +23,7 @@ function Products() {
       tabBarOptions={{
         activeTintColor: 'white',
         inactiveTintColor: '#D3D3D3',
-        labelStyle: {fontSize: 14, textTransform: 'none'},
+        labelStyle: {fontSize: hp(2.2), textTransform: 'none'},
         indicatorStyle: {
           backgroundColor: 'white',
         },
@@ -37,15 +41,15 @@ const createAppStack = () => {
     <Tab.Navigator
       tabBarOptions={{
         labelStyle: {
-          fontSize: 12,
-          padding: 4,
+          fontSize: hp(1.5),
+          padding: hp(1),
         },
         style: {
-          height: 60,
+          height: hp(8),
         },
         tabStyle: {
-          paddingVertical: 5,
-          marginTop: 5,
+          paddingVertical: hp(0.5),
+          marginTop: hp(1),
         },
         activeTintColor: '#1a73e8',
         inactiveTintColor: 'gray',
