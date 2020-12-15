@@ -5,9 +5,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import {AddProduct} from '../screens';
 import createAppStack from './TabNavigator';
-import {Heading} from '../components';
+import {CustomText, Heading} from '../components';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {PRIMARY} from '../styles/colors';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -19,20 +20,36 @@ function getHeaderTitle(route) {
   const routeName = getFocusedRouteNameFromRoute(route) ?? 'Home';
   switch (routeName) {
     case 'Home':
-      return 'Home';
+      return (
+        <CustomText color="white" size="xl" isBold={false} isTitle={true}>
+          Home
+        </CustomText>
+      );
     case 'Orders':
-      return 'Orders';
+      return (
+        <CustomText color="white" size="xl" isBold={false} isTitle={true}>
+          Orders
+        </CustomText>
+      );
     case 'Products':
-      return 'Products';
+      return (
+        <CustomText color="white" size="xl" isBold={false} isTitle={true}>
+          Products
+        </CustomText>
+      );
     case 'Profile':
-      return 'My profile';
+      return (
+        <CustomText color="white" size="xl" isBold={false} isTitle={true}>
+          Profile
+        </CustomText>
+      );
   }
 }
 
 const Navigator = () => {
   return (
     <NavigationContainer>
-      <StatusBar backgroundColor="#1a73e8" />
+      <StatusBar backgroundColor={PRIMARY} />
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
@@ -40,7 +57,7 @@ const Navigator = () => {
           options={({route}) => ({
             headerTitle: getHeaderTitle(route),
             headerStyle: {
-              backgroundColor: "#1a73e8",
+              backgroundColor: PRIMARY,
               elevation: 0,
             },
             headerTintColor: '#fff',

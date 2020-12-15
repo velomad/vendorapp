@@ -34,6 +34,7 @@
 		61A11B7F2CB14F468BE67B6F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */; };
 		6B7DE01433134E879E3F5330 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */; };
 		F31A779642624A098B0FB573 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */; };
+		B29A6EC0EE9648CCA7C2D899 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9261E4C459F047CAA5F158BC /* Raleway-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../src/assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; name = "Comfortaa-Regular.ttf"; path = "../src/assets/fonts/Comfortaa-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9261E4C459F047CAA5F158BC /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../src/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				4A0E6320FDE44775BE3ED3ED /* Zocial.ttf */,
 				33A219734BDD47D88119D5D4 /* Ubuntu-Light.ttf */,
 				A3A046412CD9436790ECA5F0 /* Comfortaa-Regular.ttf */,
+				9261E4C459F047CAA5F158BC /* Raleway-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				61A11B7F2CB14F468BE67B6F /* Zocial.ttf in Resources */,
 				6B7DE01433134E879E3F5330 /* Ubuntu-Light.ttf in Resources */,
 				F31A779642624A098B0FB573 /* Comfortaa-Regular.ttf in Resources */,
+				B29A6EC0EE9648CCA7C2D899 /* Raleway-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {Text, View} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Profile, Home, Order, AllProducts} from '../screens/';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
@@ -12,7 +11,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-
+import {PRIMARY} from '../styles/colors';
 
 const Tab = createBottomTabNavigator();
 const Top = createMaterialTopTabNavigator();
@@ -27,7 +26,7 @@ function Products() {
         indicatorStyle: {
           backgroundColor: 'white',
         },
-        style: {backgroundColor: '#1a73e8', borderTopWidth: 0},
+        style: {backgroundColor: PRIMARY, borderTopWidth: 0},
       }}>
       <Top.Screen name="All Products" component={AllProducts} />
       <Top.Screen name="Add" component={Home} />

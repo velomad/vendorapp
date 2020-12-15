@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Button} from 'react-native';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -7,14 +7,18 @@ import {
 import {margin, padding} from '../../styles/mixins';
 import {CustomText} from '../../components';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.cardContainer}>
         <View style={styles.card}>
-          <CustomText isBold={false} color="primary" isTitle={false} size="lg">
-            easdadpic
+          <CustomText isBold={false} color="primary" isTitle={false}>
+            this is the test paragraoh
           </CustomText>
+          <Button
+            onPress={() => navigation.navigate('AddProduct')}
+            title="open"
+          />
         </View>
 
         <View style={styles.card}></View>
@@ -36,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     borderRadius: 5,
     backgroundColor: 'lightblue',
-    marginHorizontal: wp(1),
+    marginHorizontal: wp(0.2),
   },
 });
 

@@ -1,7 +1,7 @@
 import {scaleFont} from './mixins';
 
 // FONT FAMILY
-export const FONT_FAMILY_REGULAR = 'Comfortaa-Regular';
+export const FONT_FAMILY_REGULAR = 'Raleway-Regular';
 export const FONT_FAMILY_BOLD = 'OpenSans-Bold';
 
 // FONT WEIGHT
