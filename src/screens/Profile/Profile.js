@@ -1,12 +1,26 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
+import {connect} from 'react-redux';
+import {getProfileAction} from '../../store/actions'
+
 import {View, Text} from 'react-native';
 
-const Profile = () => {
+const Profile = (props) => {
+  useEffect (() => {
+    props.getProfileAction()
+  },[])
+
+  console.log(props.profileData)
+
   return (
     <View>
-      <Text>Add PRoduct</Text>
+      <Text>Profile</Text>
     </View>
   );
 };
 
-export default Profile;
+const mapStateToProps = ({profileState}) => ({
+profileData:profileState.shopProfile
+})
+
+
+export default connect(mapStateToProps,{getProfileAction})(Profile);

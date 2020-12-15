@@ -1,0 +1,19 @@
+export const LOGIN_LOAD = 'LOGIN_LOAD';
+export const SET_TOKEN_STATE = 'SET_TOKEN_STATE';
+export const LOGIN_FETCH = 'LOGIN_FETCH';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const LOGOUT = 'LOGOUT';
+
+export const GET_SHOP_TYPE_LOAD = 'GET_SHOP_TYPE_LOAD';
+export const GET_SHOP_TYPE_FETCH = 'GET_SHOP_TYPE_FETCH';
+export const GET_SHOP_TYPE_ERROR = 'GET_SHOP_TYPE_ERROR';
+
+export const SET_SHOP_ADDRESS = 'SET_SHOP_ADDRESS';
+
+export const SET_LAT_LNG = 'SET_LAT_LNG';
+
+export const SET_PHONE_NUMBER = 'SET_PHONE_NUMBER';
+
+export const SHOP_STORE_FETCH = 'SHOP_STORE_FETCH';
+export const SHOP_STORE_LOAD = 'SHOP_STORE_LOAD';
+export const SHOP_STORE_ERROR = 'SHOP_STORE_ERROR';
