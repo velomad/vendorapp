@@ -65,7 +65,7 @@ const CustomButton = ({
   });
 
   return (
-    <TouchableOpacity style={styles.btnStyle}>
+    <TouchableOpacity activeOpacity={0.4} style={styles.btnStyle}>
       <Text style={styles.text}>{children}</Text>
     </TouchableOpacity>
   );

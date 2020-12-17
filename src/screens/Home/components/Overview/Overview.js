@@ -63,22 +63,6 @@ const Overview = (props) => {
           {totalOrdersCancelled}
         </CustomText>
       </View>
-      <View style={styles.card}>
-        <CustomText isBold={true} size="md" color="white" isTitle={false}>
-          Cancelled
-        </CustomText>
-        <CustomText isBold={true} size="md" color="white" isTitle={false}>
-          {totalOrdersCancelled}
-        </CustomText>
-      </View>
-      <View style={styles.card}>
-        <CustomText isBold={true} size="md" color="white" isTitle={false}>
-          Cancelled
-        </CustomText>
-        <CustomText isBold={true} size="md" color="white" isTitle={false}>
-          {totalOrdersCancelled}
-        </CustomText>
-      </View>
     </View>
   );
 };
@@ -92,9 +76,9 @@ const styles = StyleSheet.create({
   },
 
   card: {
-    width: wp(30),
+    width: wp(46),
     height: hp(12),
-    marginVertical: hp(0.5),
+    marginVertical: hp(1),
     borderRadius: 5,
     backgroundColor: 'lightblue',
     justifyContent: 'center',

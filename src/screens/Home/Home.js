@@ -19,18 +19,10 @@ const Home = (props, navigation) => {
 
   return (
     <View style={{padding: 10}}>
-      <View
-        style={{
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-        }}>
-        <CustomButton size="sm" color="primary">
-          epic
-        </CustomButton>
-        <CustomButton size="md" color="primary">
-          epic
-        </CustomButton>
-      </View>
+      <CustomButton size="sm" color="primary">
+        Online
+      </CustomButton>
+
       <Overview />
     </View>
   );
